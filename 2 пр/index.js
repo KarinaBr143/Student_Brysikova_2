@@ -35,7 +35,7 @@ function showQuestion() {
         <h3>Вопрос ${currentQuestion + 1}:</h3>
         <p>${questions[currentQuestion].text}</p>
         <input type="text" id="answer" placeholder="Ваш ответ"> 
-        <button onclick="checkAnswer()">Ответить</button>`; //поле ввода 
+        <button onclick="checkAnswer()">Ответить</button>`; 
 }
     function checkAnswer() {
         const userAnswer = document.getElementById('answer').value.toLowerCase().trim(); //делаем что бы засчитался ответ, регистр, пробелы
