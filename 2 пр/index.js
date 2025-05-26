@@ -50,7 +50,7 @@ function showQuestion() {
     }
 
     currentQuestion++;
-        setTimeout(showQuestion); 
+        setTimeout(showQuestion, 300); 
 }
 
 // 2
