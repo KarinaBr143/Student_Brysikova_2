@@ -4,7 +4,8 @@ let prav = 0;
 const questions = [
     {
         text: "Зимой и летом одним цветом",
-        answer: "ёлка"
+        answer: "елка",
+        altAnswers: ["ёлка"] 
     },
     {
         text: "Висит груша — нельзя скушать",
@@ -38,19 +39,23 @@ function showQuestion() {
         <button onclick="checkAnswer()">Ответить</button>`; 
 }
     function checkAnswer() {
-        const userAnswer = document.getElementById('answer').value.toLowerCase().trim(); //делаем что бы засчитался ответ, регистр, пробелы
-        const correctAnswer = questions[currentQuestion].answer.toLowerCase(); //получаем ответ
-        const quizDiv = document.getElementById('quiz'); //вывод
+        const userAnswer = document.getElementById('answer').value.toLowerCase().trim(); //регистр, пробелы
+        const currentQ = questions[currentQuestion]; //получаем ответ
+        const correctAnswers = currentQ.altAnswers 
+        ? [currentQ.answer, ...currentQ.altAnswers] 
+        : [currentQ.answer.toLowerCase()];
 
-    if (userAnswer === correctAnswer) {
-        score++; //увел счет 
-        quizDiv.innerHTML += `<p class="correct"> Верно!</p>`;  //присваиваем 
+    const quizDiv = document.getElementById('quiz');
+
+    if (correctAnswers.includes(userAnswer)) {
+        prav++; //увел счет 
+        quizDiv.innerHTML += `<p class="correct"> Верно!</p>`;
     } else {
-        quizDiv.innerHTML += `<p class="wrong"> Неверно. Правильный ответ: ${correctAnswer}</p>`; //не присваиваем
+        quizDiv.innerHTML += `<p class="wrong"> Неверно. Правильный ответ: ${currentQ.answer}</p>`;
     }
 
     currentQuestion++;
-        setTimeout(showQuestion, 300); 
+        setTimeout(showQuestion); 
 }
 
 // 2
