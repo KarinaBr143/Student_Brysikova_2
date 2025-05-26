@@ -1,0 +1,87 @@
+body{
+    background-color: #1e295abb;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* padding-left: 30px; */
+    color: #f7f2ef;
+}
+
+.nachalo{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.nachalo-2{
+    color: #ad3a6af2;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #cecfd7bb; */
+    /* oбводка! */
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ad3a6af2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.vick
+{
+    text-align: center;
+    padding: 20px;
+    background-color: #27284967;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.schet{
+    text-align: center;
+    padding: 20px;
+    background-color: #27284967;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.zastol{
+    text-align: center;
+    padding: 20px;
+    background-color: #27284967;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.fak{
+    text-align: center;
+    padding: 20px;
+    background-color: #27284967;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.pal{
+    text-align: center;
+    padding: 20px;
+    background-color: #27284967;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
+.nomer{
+    text-align: center;
+    padding: 20px;
+    background-color: #27284967;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+}
+
