@@ -1,0 +1,212 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.zagolovok {
+  color: rgb(109, 25, 32);
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; тоже хорорший */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 20px;
+}
+
+.opisan {
+  color: rgb(21, 21, 21);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* padding-top: 10px; */
+  text-indent: 15px;
+}
+
+.opisan2 {
+  color: rgb(21, 21, 21);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* padding-top: 10px; */
+  padding-left: 80px;
+  text-indent: 15px;
+}
+
+.ya {
+  color: rgb(109, 25, 32);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.pec1 {
+  color: rgb(21, 21, 21);
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 30px;
+  text-indent: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px; 
+  /* последнее отступление между блоками */
+}
+
+.abzzac {
+  display: flex;
+  flex-direction: column;
+}
+
+.verh {
+  display: flex;
+  flex-direction: row;
+}
+
+.yaponskiy-khin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.pec2 {
+  color: rgb(21, 21, 21);
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 30px;
+  text-indent: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.verh2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.husky {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 20px;
+  height: 382px;
+  width: 382px;
+}
+
+.abzzac-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.tablo-gl{
+  margin-left: 200px;
+}
+.tablo {
+  width: 1000px;
+  border-top: 7px solid rgb(31, 30, 29);
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid rgb(31, 30, 29);
+}
+td {
+  text-align: left;
+  padding: 10px;
+  border: 3px solid rgb(31, 30, 29);
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+  border: 3px solid rgb(31, 30, 29);
+  background-color: rgb(209, 169, 169);
+}
+.abzzac-4{
+  padding-bottom: 50px; 
+}
+
+/* .index2-zagolo{
+  color: rgb(109, 25, 32);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 20px;
+} */
+
+.itog{
+  color: rgb(109, 25, 32);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 20px;
+}
+
+.drygie{
+  color: rgb(109, 25, 32);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 20px;
+}
+
+.otstyp{
+  text-indent: 200px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: right; */
+}
+
+
+.pekinec{
+  transition: transform 0.2s;
+  height: 382px;
+  width: 382px;
+}
+.pekinec:hover {
+  transform: scale(1.07);
+}
+
+.shi{
+  transition: transform 0.2s;
+  height: 382px;
+  width: 382px;
+}
+.shi:hover {
+  transform: scale(1.07);
+}
+
+.king{
+  transition: transform 0.2s;
+  height: 382px;
+  width: 382px;
+}
+.king:hover {
+  transform: scale(1.07);
+}
+
+.alya{
+  transition: transform 0.2s;
+  height: 382px;
+  width: 382px;
+}
+.alya:hover {
+  transform: scale(1.07);
+}
+
+.mala{
+  transition: transform 0.2s;
+  height: 382px;
+  width: 382px;
+}
+.mala:hover {
+  transform: scale(1.07);
+}
+
+.samo{
+  transition: transform 0.2s;
+  height: 382px;
+  width: 382px;
+}
+.samo:hover {
+  transform: scale(1.07);
+}
+
+.obsha{
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* .cartinka {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    display: ;
+} */
