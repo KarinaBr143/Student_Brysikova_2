@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroPlaning - Поиск авиабилетов</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">AeroPlaning</div>
+        <nav>
+            <a href="voiti.html" class="ssilki"><i class="voiti"></i> Войти</a>
+            <a href="pom.html" class="ssilki"><i class="help"></i> Помощь</a>
+        </nav>
+    </header>
+
+    <!-- Форма поиска -->
+    <section class="search">
+        <div class="search-grid">
+            <div class="input-group">
+                <i class="otkud"></i>
+                <input type="text" class="search-input" placeholder="Откуда">
+            </div>
+            <div class="input-group">
+                <i class="kud"></i>
+                <input type="text" class="search-input" placeholder="Куда">
+            </div>
+            <div class="input-group">
+                <i class="datt"></i>
+                <input type="date" class="search-input">
+            </div>
+            <div class="input-group">
+                <i class="friends"></i>
+                <input type="number" class="search-input" placeholder="Пассажиры">
+            </div>
+            <button class="search-button">Найти билеты <i class="ssearch"></i></button>
+        </div>
+    </section>
+
+    <!-- популярные направления  -->
+    <div class="section-header">
+        <h2 class="section-title">Популярные направления</h2>
+        <a href="populyar.html" class="ssilki">Смотреть все →</a>
+    </div>
+
+    <!-- рейсы + реклама -->
+    <div class="osnova">
+        <!-- Основные рейсы -->
+        <div class="flights-list">
+            <article class="flight-card">
+                <div class="flight-time">
+                    08:10 — 13:20
+                    <div class="flight-duration">5ч 10м</div>
+                </div>
+                <div class="flight-details">
+                    <h3>Москва (SVO) → Стамбул (IST)</h3>
+                    <div class="flight-k">
+                        <span>Aeroflot</span>
+                        <span><i class="cho"></i> Эконом</span>
+                        <span><i class="tifr"></i> 4.8</span>
+                    </div>
+                </div>
+                <div class="flight-price">
+                    19 790 ₽
+                    <button class="search-button">Выбрать</button> 
+                    <!-- как сделать так, что бы перебрасывало на другое окно -->
+                </div>
+                <div class="flight-time">
+                    12:00 — 14:40
+                    <div class="flight-duration">3ч 40м</div>
+                </div>
+                <div class="flight-details">
+                    <h3>Москва (VKO) → Грузия (TBS)</h3>
+                    <div class="flight-k">
+                        <span>Azimut</span>
+                        <span><i class="cho"></i> Эконом</span>
+                        <span><i class="tifr"></i> 4.7</span>
+                    </div>
+                </div>
+                <div class="flight-price">
+                    12 590 ₽
+                    <button class="search-button">Выбрать</button>
+                </div>
+                <div class="flight-time">
+                    7:55 — 11:40
+                    <div class="flight-duration">5ч 10м</div>
+                </div>
+                <div class="flight-details">
+                    <h3>Москва (DME) → Сочи (AER)</h3>
+                    <div class="flight-k">
+                        <span>NordStar</span>
+                        <span><i class="cho"></i> Эконом </span>
+                        <span><i class="tifr"></i> 4.9</span>
+                    </div>
+                </div>
+                <div class="flight-price">
+                    11 285 ₽
+                    <button class="search-button">Выбрать</button> 
+                    <!-- как сделать так, что бы перебрасывало на другое окно -->
+                </div>
+                <div class="flight-time">
+                    18:10 — 19:45
+                    <div class="flight-duration">1ч 35м</div>
+                </div>
+                <div class="flight-details">
+                    <h3>Москва (DME) → Казань (KZN)</h3>
+                    <div class="flight-k">
+                        <span>Azimut</span>
+                        <span><i class="cho"></i> Эконом</span>
+                        <span><i class="tifr"></i> 4.5</span>
+                    </div>
+                </div>
+                <div class="flight-price">
+                    8 522 ₽
+                    <button class="search-button">Выбрать</button>
+                </div>
+            </article>
+        </div>
+
+        <!-- реклама -->
+<aside class="reclam">
+    <!-- как добавить ссылки  -->
+    <div class="ad-block">
+        <div class="ad-badge">Горящее</div>
+        <img src="барса.jpg" alt="Барселона" class="ad-image">
+        <div class="tochno">
+            <div class="ad-city">Барселона</div>
+            <div class="ad-price">от 8 900 ₽</div>
+        </div>
+    </div>
+    <!-- добавить на барселону и токио ссылки на другие страницы -->
+    <div class="ad-block">
+        <div class="ad-badge">Спеццена</div>
+        <img src="токио.jpg" alt="Токио" class="ad-image">
+        <div class="tochno">
+            <div class="ad-city">Токио</div>
+            <div class="ad-price">от 23 500 ₽</div>
+        </div>
+    </div>
+</aside>
+    </div>
+
+    <footer class="footer">
+        <div class="ssilki">
+            <h4>О нас</h4>
+            <a href="contakt.html" class="ssilki">Контакты</a>
+            <a href="cariera.html" class="ssilki">Карьера</a>
+            <a href="partner.html" class="ssilki">Партнерам</a>
+        </div>
+        <div class="ssilki">
+            <h4>Помощь</h4>
+            <a href="faq.html" class="ssilki">FAQ</a>
+            <a href="pravila.html" class="ssilki">Правила</a>
+            <a href="oplata.html" class="ssilki">Оплата</a>
+        </div>
+    </footer>
+</body>
+</html>
